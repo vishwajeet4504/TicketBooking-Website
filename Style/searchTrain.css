@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: url('../Resources/trainImage.png') no-repeat center center/cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.2);
+}
+#home h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #e7e7f8;
+}
+#home .searchbar input{
+    height: 46px;
+    width: 210px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 4px;
+}
+#home .searchbar button{
+    height: 46px;
+    width: 144px;
+    border-width: 0;
+    background-color: #d74f57;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900!important;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#home img{
+    width: 36px;
+    height: 35px;
+    position: relative;
+    right: 599px;
+    top: 11px;
+    cursor: pointer;
+}
